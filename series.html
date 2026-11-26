@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Series Guide | Xenoblade Game Guide</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="series">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div id="wrapper">
+    <header>
+      <p>Xenoblade Chronicles Game Guide</p>
+    </header>
+
+    <nav aria-label="Main navigation">
+      <a href="index.html">Xenoblade 1</a>
+      <a href="xenoblade2.html">Xenoblade 2</a>
+      <a href="xenoblade3.html">Xenoblade 3</a>
+      <a href="series.html" aria-current="page">Series Guide</a>
+    </nav>
+
+    <main id="main">
+      <h1>Series Guide</h1>
+      <p>Compare the three numbered Xenoblade Chronicles games and choose where to start.</p>
+      <section aria-labelledby="comparison-title">
+        <h2 id="comparison-title">Compare the games</h2>
+        <div class="table-scroll" tabindex="0" role="region" aria-label="Game comparison table">
+          <table>
+            <caption>Nintendo Switch editions and their launch dates</caption>
+            <thead>
+              <tr><th scope="col">Game</th><th scope="col">Release date</th><th scope="col">Platform</th><th scope="col">Main hero</th></tr>
+            </thead>
+            <tbody>
+              <tr><th scope="row"><a href="index.html">Xenoblade Chronicles: Definitive Edition</a></th><td>May 29, 2020</td><td>Nintendo Switch</td><td>Shulk</td></tr>
+              <tr><th scope="row"><a href="xenoblade2.html">Xenoblade Chronicles 2</a></th><td>December 1, 2017</td><td>Nintendo Switch</td><td>Rex</td></tr>
+              <tr><th scope="row"><a href="xenoblade3.html">Xenoblade Chronicles 3</a></th><td>July 29, 2022</td><td>Nintendo Switch</td><td>Noah and Mio</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <ul class="start-list">
+          <li><strong>Start with 1</strong> if you want to follow the numbered series in order.</li>
+          <li><strong>Start with 2</strong> if you want to explore the Cloud Sea and experiment with Blade combinations.</li>
+          <li><strong>Start with 3</strong> if you want an ensemble story and the freedom to swap character classes. Playing the first two gives some later moments extra context.</li>
+        </ul>
+      </section>
+
+      <!-- To remove the JavaJam form, delete this section through its closing </section>. -->
+      <section class="favorite" aria-labelledby="favorite-title">
+        <h2 id="favorite-title">Share your favorite</h2>
+        <p>Pick a game and tell us why. The course’s JavaJam demo displays your submission on a separate confirmation page.</p>
+        <form method="post" action="https://webdevbasics.net/scripts/javajam8.php">
+          <label for="favorite-game">Favorite game</label>
+          <select id="favorite-game" name="myName" required>
+            <option value="">Choose a game</option>
+            <option>Xenoblade Chronicles: Definitive Edition</option>
+            <option>Xenoblade Chronicles 2</option>
+            <option>Xenoblade Chronicles 3</option>
+          </select>
+          <label for="reason">Why is it your favorite? (optional)</label>
+          <textarea id="reason" name="myExperience" rows="4" maxlength="500"></textarea>
+          <button type="submit">Submit favorite</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>Unofficial Xenoblade Chronicles fan guide · ITEC 231</p>
+
+      <p><a href="https://xenoblade-chronicles-game-guide.savagelegend155.chatgpt.site/xenoblade-guide-source.zip" download>Download the HTML and CSS source</a></p>
+    </footer>
+  </div>
+</body>
+</html>
